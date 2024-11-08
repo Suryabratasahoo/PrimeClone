@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:black;
+}
+nav {
+    display:grid;
+    width: 70vw;
+    height: 6vh;
+    background-color: black;
+    margin-left: 219px;
+    color:rgb(204, 204, 204);
+    grid-template-columns: 146px 101px 88px 95px 156px 84px 109px 65px 69px;
+    
+    box-sizing: border-box;
+    align-items: center;
+}
+nav img{
+    background-color: black;
+    width: 96px;
+    height: 18px;
+}
+nav svg {
+    width: 16px;
+    height: 13px;
+}
+nav div{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search>svg {
+    width: 50px !important;
+    height: 22px !important;
+}
+.user>svg {
+    width: 27px;
+    height: 35px;
+}
+.user{
+    padding-top: 6px;
+}
+
+.firstback{
+    width: 191vh;
+    height: 71vh;
+    background: url(assets/images/1stback.jpg) right top;
+    padding: 12px;
+    background-repeat: no-repeat;
+   
+}
+.text{
+    width: 95%;
+    height: 71vh;
+    
+    margin: auto;
+    
+    
+
+}
+.info {
+    width: 600px;
+    height: 315px;
+    display: grid;
+    grid-template-rows: 67px 72px 40px;
+    align-items: center;
+    color: white;
+    padding-top: 21px;
+    padding-left: 17px;
+}
+.info :first-child{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 200;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+
+  
+
+}
+.info :nth-child(2){
+    font-size: 24px;
+    line-height: 27px;
+    font-style: normal;
+}
+.info :nth-child(3) button {
+    width: 255px;
+    height: 44px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(206, 40%, 44%);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.secondback{
+    width: 191vh;
+    height: 71vh;
+    background: url(assets/images/2ndback.jpg) right top;
+    padding: 12px;
+    padding-top:5px;
+    background-repeat: no-repeat;
+   
+}
+.secondback .text{
+    width: 95%;
+    height: 71vh;
+    
+    margin: auto;
+    
+    
+
+}
+.secondback .info {
+    width: 600px;
+    height: 315px;
+    display: grid;
+    grid-template-rows: 58px 46px 118px;
+
+    align-items: center;
+    color: white;
+    padding-top: 21px;
+    padding-left: 17px;
+}
+.secondback .info :first-child{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+
+  
+
+}
+.secondback .info :nth-child(2){
+    font-size: 21px;
+    line-height: 26px;
+    font-style: normal;
+}
+.secondback .info :nth-child(3) button {
+    width: 255px;
+    height: 44px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(206, 40%, 44%);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border-radius: 7px;
+
+}
+.favourite{
+    height: 86vh;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.favourite .mainbox{
+    height: 76vh;
+    background-color: white;
+    display: flex;
+}
+.textsss{
+    width: 50%;
+    height: 100%;
+   
+    display: grid;
+    grid-template-rows: 122px 78px;
+}
+.images{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    
+}
+.textsss div:first-child{
+    font-weight: 200;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 50px;
+}
+.textsss p{
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: lighter;
+
+}
+.images div img{
+    width: 196px;
+    height: 118px;
+}
+.remotebox{
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+}
+.remote {
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.remote img {
+    position: absolute;
+    width: 100%;
+    height: 125%;
+    object-fit: cover; /* This ensures the image covers the entire container while maintaining the aspect ratio */
+    object-position: bottom left;
+}   
+.textbox{
+    width: 50%;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    align-items: center;
+    color: white;
+}
+.textbox div:first-child{
+    font-size: 40px;
+    line-height: 45px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+}
+.textbox div:nth-child(2) p{
+    font-size: 21px;
+    line-height: 26px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+}
+.textbox span{
+    font-size: 17px;
+    line-height: 20px;
+}
+.textbox div span {
+    display: inline-block;
+    width: 247px;
+    height: 43px;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+    background-color: hsl(210, 57%, 57%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 21px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 126px;
+    background-color: hsl(0, 0%, 13%);
+}
+.container{
+    width: 30vw;
+    height: 100%;
+   
+    margin: auto;
+    display: grid;
+}
+.imageprime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imageprime img{
+    width: 105px;
+    height: 36px;
+}
+.agreement{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    color: rgb(15, 121, 175);
+    font-size: 15px;
+}
+.copyright{
+    text-align: center;
+    color: hsl(60, 5%, 56%);
+}
